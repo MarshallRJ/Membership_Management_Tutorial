@@ -1,4 +1,4 @@
-using Shesha.Domain.Attributes;
+```using Shesha.Domain.Attributes;
 using Shesha.Domain;
 using System;
 using System.Collections.Generic;
@@ -10,7 +10,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Boxfusion.Membership.Common.Domain.Domain
 {
  
-        // <summary>
+        /// <summary>
         /// A person within the application that is a Member
         /// </summary>
         [Entity(TypeShortAlias = "Mem.Member")]
@@ -49,3 +49,4 @@ namespace Boxfusion.Membership.Common.Domain.Domain
             public virtual StoredFile IdDocument { get; set; }
         }
 }
+```
